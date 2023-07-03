@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/1314ad4f7f.js" crossorigin="anonymous"></script>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Main js -->
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <!-- Player -->
+    <main class="player">
+
+        <!-- Title -->
+        <h1 class="title" id="title"></h1>
+
+        <!-- Cover -->
+        <img src="" alt="" class="cover" id="cover">
+
+        <!--  Audio HTML Media elememt -->
+        <audio src="" id="audio"></audio>
+        
+        <!-- Progress Bar -->
+        <div id="progress-container" class="progress-container">
+            <section id="progress" class=progress></section>
+        </div>
+
+        <!-- controls -->
+        <section class="controls">
+            <button class="prev">
+                <i id="prev" class="fas fa-backward"></i>
+            </button>
+            <button class="play">
+                <i id="play" class="fas fa-play"></i>
+            </button>
+            <button class="next">
+                <i id="next" class="fas fa-forward"></i>
+            </button>
+        </section>
+
+        <!-- Song List -->
+        <ul class="songs" id="songs">
+            <!-- <li><a href="#">Song 1</a></li>
+            <li><a class="active" href="#">Song 2</a></li>
+            <li><a href="#">Song 3</a></li> -->
+        </ul>
+    </main>
+</body>
+
+</html>
